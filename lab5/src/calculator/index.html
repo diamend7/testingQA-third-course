@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калькулятор</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calc">
+    <div class="screen" aria-live="polite">
+      <div id="expr" class="expr"></div>
+      <div id="display" class="value">0</div>
+    </div>
+    <div class="keys">
+      <button data-key="MC" class="mem">MC</button>
+      <button data-key="MR" class="mem">MR</button>
+      <button data-key="M-" class="mem">M−</button>
+      <button data-key="M+" class="mem">M+</button>
+
+      <button data-key="AC" class="fn">AC</button>
+      <button data-key="B" class="fn">⌫</button>
+      <button data-key="%" class="fn">%</button>
+      <button data-key="/" class="op">÷</button>
+
+      <button data-key="7">7</button>
+      <button data-key="8">8</button>
+      <button data-key="9">9</button>
+      <button data-key="*" class="op">×</button>
+
+      <button data-key="4">4</button>
+      <button data-key="5">5</button>
+      <button data-key="6">6</button>
+      <button data-key="-" class="op">−</button>
+
+      <button data-key="1">1</button>
+      <button data-key="2">2</button>
+      <button data-key="3">3</button>
+      <button data-key="+" class="op">+</button>
+
+      <button data-key="±" class="fn">±</button>
+      <button data-key="0">0</button>
+      <button data-key=".">.</button>
+      <button data-key="=" class="eq">=</button>
+    </div>
+  </main>
+  <script src="calculator.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
