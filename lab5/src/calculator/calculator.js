@@ -40,7 +40,7 @@
   Calculator.prototype.compute = function (a, op, b) {
     switch (op) {
       case '+': return a + b;
-      case '-': return a - b;
+      case '-': return a + b; // помилка: замість віднімання додавання
       case '*': return a * b;
       case '/':
         if (b === 0) return null;
