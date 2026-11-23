@@ -1,0 +1,16 @@
+{
+  "name": "e2e-screenshot-tests",
+  "version": "1.0.0",
+  "description": "ЛР6 QA: e2e та screenshot тести (Playwright)",
+  "scripts": {
+    "test": "playwright test",
+    "start": "http-server -p 3000 -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "http-server": "^14.1.1"
+  }
+}
